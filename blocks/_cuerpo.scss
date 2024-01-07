@@ -1,0 +1,32 @@
+.cuerpo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.categoria {
+    display: block;
+    margin: 5%;
+}
+
+.youtube {
+    display: block;
+    margin: 5%;
+}
+
+.cuerpo a {
+    color: #B22222;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cuerpo img {
+    max-width: 98%;
+    height: 75%;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.categoria img {
+    max-width: 100%;
+}

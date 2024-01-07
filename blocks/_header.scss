@@ -1,0 +1,65 @@
+.inicio {
+    background-image: url(./img/peugeot.png);
+    background-size: cover;
+    align-items: center;
+    padding: 40px 0;
+    box-shadow: 0 0 70px 0px;
+}
+
+.menu {
+    color: brown;
+    text-decoration: none;
+}
+
+nav {
+    border-bottom: 2px solid white;
+    margin-bottom: 30%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+button {
+    background-color: #0000CD;
+    color: #ffffff;
+    border-width: 0;
+    border-style: none;
+    border-color: transparent;
+    box-shadow: none;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+button a {
+    color: #FFFAFA;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 2rem;
+    list-style: none;
+}
+
+.icon li img {
+    width: 4vh;
+}
+
+.encabezado {
+    margin-left: 3%;
+    color: white;
+}

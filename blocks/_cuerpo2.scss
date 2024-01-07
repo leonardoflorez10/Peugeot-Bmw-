@@ -1,0 +1,24 @@
+.configuraciones {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.configuracion {
+    width: 250px;
+    height: 100px;
+    background-color: #A9A9A9;
+    justify-content: center;
+    align-items: center;
+}
+
+.configuraciones img {
+    width: 20%;
+    height: 30%;
+    padding-left: 40%;
+    padding-top: 10%;
+}
+
+.configuraciones p {
+    padding-left: 30%;
+}

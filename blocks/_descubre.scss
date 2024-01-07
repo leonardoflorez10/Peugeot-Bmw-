@@ -1,0 +1,46 @@
+.descubre {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px;
+}
+
+.virtual {
+    display: block;
+    width: 35vh;
+    border: 3px solid #191970;
+}
+
+.descubre2 {
+    display: block;
+    width: 35vh;
+    border: 3px solid #191970;
+}
+
+.descubre3 {
+    display: block;
+    width: 35vh;
+    border: 3px solid #191970;
+}
+
+.descubre4 {
+    display: block;
+    width: 35vh;
+    border: 3px solid #191970;
+}
+
+.descubre img {
+    width: 96%;
+    height: 48%;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.descubre p {
+    font-size: 15px;
+}
+
+.descubre a {
+    color: #FF0000;
+    font-size: 18px;
+    font-weight: bold;
+}

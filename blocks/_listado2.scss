@@ -1,0 +1,23 @@
+.listado2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listado2 ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    gap: 20px;
+    list-style: none;
+    padding-right: 30px;
+}
+
+h5 {
+    font-size: 16px;
+    color: #6077FF;
+}
+
+.listado2 li {
+    font-size: 13px;
+}

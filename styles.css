@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap");
+* {
+  font-family: Rubik;
+  margin: 0;
+  padding: 0;
+}
+
+.inicio {
+  background-image: url(./img/peugeot.png);
+  background-size: cover;
+  align-items: center;
+  padding: 40px 0;
+  box-shadow: 0 0 70px 0px;
+}
+
+.menu {
+  color: brown;
+  text-decoration: none;
+}
+
+nav {
+  border-bottom: 2px solid white;
+  margin-bottom: 30%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+button {
+  background-color: #0000CD;
+  color: #ffffff;
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  box-shadow: none;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 100px;
+}
+
+button a {
+  color: #FFFAFA;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 2rem;
+  list-style: none;
+}
+
+.icon li img {
+  width: 4vh;
+}
+
+.encabezado {
+  margin-left: 3%;
+  color: white;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+}
+
+.modelos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.nav-item {
+  color: #00008B;
+}
+
+.coches {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.titulo ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  list-style: none;
+}
+
+ul li img {
+  width: 40vh;
+}
+
+.titulos {
+  color: #FF4500;
+  font-size: 17px;
+}
+
+li {
+  font-size: 17px;
+}
+
+.titulos li img {
+  max-width: 17px;
+}
+
+.descubre {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3px;
+}
+
+.virtual {
+  display: block;
+  width: 35vh;
+  border: 3px solid #191970;
+}
+
+.descubre2 {
+  display: block;
+  width: 35vh;
+  border: 3px solid #191970;
+}
+
+.descubre3 {
+  display: block;
+  width: 35vh;
+  border: 3px solid #191970;
+}
+
+.descubre4 {
+  display: block;
+  width: 35vh;
+  border: 3px solid #191970;
+}
+
+.descubre img {
+  width: 96%;
+  height: 48%;
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+.descubre p {
+  font-size: 15px;
+}
+
+.descubre a {
+  color: #FF0000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cuerpo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.categoria {
+  display: block;
+  margin: 5%;
+}
+
+.youtube {
+  display: block;
+  margin: 5%;
+}
+
+.cuerpo a {
+  color: #B22222;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.cuerpo img {
+  max-width: 98%;
+  height: 75%;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.categoria img {
+  max-width: 100%;
+}
+
+.configuraciones {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.configuracion {
+  width: 250px;
+  height: 100px;
+  background-color: #A9A9A9;
+  justify-content: center;
+  align-items: center;
+}
+
+.configuraciones img {
+  width: 20%;
+  height: 30%;
+  padding-left: 40%;
+  padding-top: 10%;
+}
+
+.configuraciones p {
+  padding-left: 30%;
+}
+
+.footer {
+  border: 5px solid black;
+  background-color: #B8B8B8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 4%;
+}
+
+ul {
+  font-size: 18px;
+}
+
+.listado li a {
+  color: white;
+  font-size: 13px;
+}
+
+.listado2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listado2 ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  gap: 20px;
+  list-style: none;
+  padding-right: 30px;
+}
+
+h5 {
+  font-size: 16px;
+  color: #6077FF;
+}
+
+.listado2 li {
+  font-size: 12px;
+}/*# sourceMappingURL=styles.css.map */

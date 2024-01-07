@@ -1,0 +1,17 @@
+.footer {
+    border: 5px solid black;
+    background-color: #B8B8B8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+ul {
+    font-size: 18px;
+}
+
+.listado li a {
+    color: white;
+    font-size: 13px;
+}
